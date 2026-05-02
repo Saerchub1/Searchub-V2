@@ -1,0 +1,124 @@
+body{
+  background-color: rgb(4, 54, 71);
+  background-repeat: no-repeat;
+}
+
+.introtext{
+  color: red;
+}
+
+.container{
+  width: 100%;
+  min-height: 100%;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar{
+  width: 100%;
+  max-width: 550px;
+  border-radius: 10px;
+}
+
+.search-btn{
+  border-radius: 15px;
+  position: relative;
+  left: 480px;
+  bottom: 24px;
+}
+
+button:hover{
+  background-color: grey;
+}
+
+.weblinks{
+  color: red;
+}
+
+.donate{
+  height: 10px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:8px 14px;
+  background:#ff0303;
+  color:#ffffff;
+  text-decoration:none;
+  border-radius:8px;
+  border:1px solid rgba(0, 0, 0, 0.12);
+  font-weight:600;
+  cursor:pointer;
+  transition:transform .08s, background .12s, box-shadow .12s;
+  position: relative;
+  bottom: 23px;
+  right: 355px;
+}
+
+.donate-link{
+  position: relative;
+  bottom: 65px;
+  right: -85px;
+}
+
+.donate:hover{ background:#1a1a1a; transform:translateY(-2px); }
+.donate:active{ transform:translateY(0); }
+.donate:focus{ outline:none; box-shadow:0 0 0 4px rgba(0,0,0,0.08); }
+
+li:hover{
+  background-color: grey;
+}
+
+.red{
+  color: red;
+}
+
+.green{ 
+  color: green;
+}
+
+.orange{
+  color: orange;
+}
+
+.yellow{
+  color: yellow;
+}
+
+.blue{ 
+  color: blue;
+}
+
+.search-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  justify-content:center;
+  align-items:center;
+  padding:16px;
+}
+
+.link-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:8px 14px;
+  background:#0b0b0b;
+  color:#fff;
+  text-decoration:none;
+  border-radius:8px;
+  border:1px solid rgba(0,0,0,0.12);
+  font-weight:600;
+  cursor:pointer;
+  transition:transform .08s, background .12s, box-shadow .12s;
+}
+
+.link-btn:hover{ background:#1a1a1a; transform:translateY(-2px); }
+.link-btn:active{ transform:translateY(0); }
+.link-btn:focus{ outline:none; box-shadow:0 0 0 4px rgba(0,0,0,0.08); }
+
+@media (min-width:900px){
+  .search-links{ flex-wrap:nowrap; }
+}
+
