@@ -53,13 +53,7 @@ button:hover{
   transition:transform .08s, background .12s, box-shadow .12s;
   position: relative;
   bottom: 23px;
-  right: 355px;
-}
-
-.donate-link{
-  position: relative;
-  bottom: 65px;
-  right: -85px;
+  right: 675px;
 }
 
 .donate:hover{ background:#1a1a1a; transform:translateY(-2px); }
