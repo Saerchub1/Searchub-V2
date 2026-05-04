@@ -51,7 +51,7 @@ button:hover{
   font-weight:600;
   cursor:pointer;
   transition:transform .08s, background .12s, box-shadow .12s;
-  position: relative;
+  position: fixed;
   bottom: 23px;
   right: 675px;
 }
